@@ -1,0 +1,139 @@
+name: amitproject
+description: A new Flutter project.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.12.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  video_player: ^2.1.10
+  carousel_slider: ^4.0.0
+  curved_navigation_bar: ^1.0.1
+  http: ^0.13.3
+  line_icons:
+
+
+
+
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - image/c036a9ea7e583649023c927e397cc521.jpg
+    - video/WhatsApp Video 2021-07-13 at 7.25.35 PM.mp4
+    - image/WhatsApp Image 2021-07-13 at 8.27.39 PM.jpeg
+    - image/WhatsApp Image 2021-07-13 at 8.31.37 PM.jpeg
+    # categoris photos
+    - image/5d75c4a7dc889f12d98ddff02b759ee6.jpg
+    - image/WhatsApp Image 2021-07-15 at 10.02.13 PM.jpeg
+    - image/unnamed.jpg
+    - image/e28166ebd72e5f317b0895a89da5a34f.jpg
+    - image/original.jpg
+    - image/Food-iPhone-7-Wallpaper-HD.jpg
+    - image/chorizo-mozarella-gnocchi-bake-cropped-9ab73a3.jpg
+    - image/PHOTO-2020-09-17-18-38-55-1024x575.jpg
+    - image/the-7-best-books-to-improve-influencing-skills-2-scaled.jpg
+    - image/sys-master-content-hf6-h98-9173631664158look-038-fall-winter-2021-22-chanel-show.jpg
+    # carousel imges
+    - image/2x1_HIM_01_gender.jpg
+    - image/540x300-kids.jpg
+    - image/2x1_HER_02_gender.jpg
+    - image/540x300_medusa-w.jpg
+    - image/9260251906078.jfif
+    - image/WhatsApp Image 2021-07-28 at 11.35.38 PM.jpeg
+    # deal images
+    - image/WhatsApp Image 2021-07-28 at 3.25.03 AM.jpeg
+    - image/WhatsApp Image 2021-07-28 at 8.19.37 AM.jpeg
+    - image/WhatsApp Image 2021-07-28 at 8.41.16 AM.jpeg
+    - image/WhatsApp Image 2021-07-28 at 8.37.57 AM.jpeg
+    - # baby images
+    - image/9780062641540.jpg
+    - image/71xUgLxhY6L.jpg
+    - # computer category
+    - image/Lenovo_Legion_7_AMD_16_Zoll_Storm_Grey_07.png
+    - # food category
+    - image/d2c89c72-9a47-4612-97d7-f0c908d9b77c.jpg
+    - # baby category
+    - image/9eb4bb53bffbd10557390a09cc39969e.jpg
+    - #girls category
+    - image/81jL5Db7x2L._UL1500_.jpg
+    - image/3021981_32KT.jpg
+    - #boy category
+    - image/marlboro-cigarettes-1.jpg
+    - image/WhatsApp Image 2021-07-28 at 8.29.41 PM.jpeg
+    - #women category
+    - image/WhatsApp Image 2021-07-28 at 9.01.44 PM.jpeg
+    - image/gabrielle-chanel-essence-eau-de-parfum-spray-3-4fl-oz--packshot-default-120630-8841592569886.jpg
+    - image/WhatsApp Image 2021-07-28 at 9.10.29 PM.jpeg
+    - image/les-beiges-healthy-glow-bronzing-cream-395-soleil-tan-deep-bronze-1-06oz--packshot-default-185395-8837033033758.jpg
+    - # men category
+    - image/90_1000578-1A00544_2D110_10_SlimFitJeans-Jeans-versace-online-store_0_2.jpg
+    - image/WhatsApp Image 2021-07-28 at 9.44.08 PM.jpeg
+    - image/90_A87094-A226597_A4008_10_GrecaArgyleAccentJacket-Jacketsandcoats-versace-online-store_7_0.jpg
+    - image/90_DPU6737-1A00607_2U48E_20_GrecaLeatherBifoldWallet-BifoldWallets-versace-online-store_2_2.jpg
+    - image/Gurkha-Cigars-Review.jpg
+    - image/WhatsApp Image 2021-08-29 at 2.36.39 AM.jpeg
+
+
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+     - family: Satisfy
+       fonts:
+         - asset: font/Satisfy-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+     - family: Yellowtail
+       fonts:
+         - asset: font/Yellowtail-Regular.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+           weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
